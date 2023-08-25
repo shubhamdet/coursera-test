@@ -2,23 +2,16 @@
 	box-sizing: border-box;
 	position: relative;
 	font-family: cursive;
-font-size: 20px;
+	font-size: 20px;
 }
 
-/*body{
-	margin: 0;
-	padding: 0;
-}*/
-
 h1 {
-	position: relative;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: calc(75% + 20px);
 }
 .chickenTitle {
 	border: 1px solid black;
-	position: relative;
 	float: right;
 	background-color: burlywood;
 	text-align: center;
@@ -30,7 +23,6 @@ h1 {
 
 .beefTitle {
 	border: 1px solid black;
-	position: relative;
 	float: right;
 	background-color: lightcoral;
 	text-align: center;
@@ -59,8 +51,6 @@ h1 {
 .content {
 clear: right;
 margin: 10px;
-
-/*padding: 10px;*/
 }
 
 @media (min-width: 992px) {
